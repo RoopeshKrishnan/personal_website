@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(/assets/img/background.jpg) center ;
+  background: url(/rk/personal_website/assets/img/background.jpg) center ;
   background-size: cover;
 }
 
