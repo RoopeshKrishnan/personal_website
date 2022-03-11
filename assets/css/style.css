@@ -1193,7 +1193,7 @@ section {
 
 
 .card-football {
-  background-image: linear-gradient(rgba(48, 48, 61, 0.322), rgba(1, 1, 17, 0.801)), url(../img/real-madrid.png);
+  background-image: linear-gradient(rgba(9, 157, 255, 0.932), rgba(18, 18, 19, 0.808)), url(../img/real-madrid.png);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -1203,7 +1203,7 @@ section {
 
 .card-books {
 
-  background-image: linear-gradient(rgba(48, 48, 61, 0.322), rgba(1, 1, 17, 0.801)), url(../img/books.jpg);
+  background-image: linear-gradient(rgba(9, 157, 255, 0.932), rgba(18, 18, 19, 0.808)), url(../img/books.jpg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -1215,7 +1215,7 @@ section {
 
 .card-movies {
 
-  background-image: linear-gradient(rgba(48, 48, 61, 0.322), rgba(1, 1, 17, 0.801)), url(../img/game-of-thrones.jpg);
+  background-image: linear-gradient(rgba(9, 157, 255, 0.932), rgba(18, 18, 19, 0.808)), url(../img/game-of-thrones.jpg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -1227,7 +1227,7 @@ section {
 
 .card-traveling {
 
-  background-image: linear-gradient(rgba(48, 48, 61, 0.322), rgba(1, 1, 17, 0.801)), url(../img/travellng.jpg);
+  background-image: linear-gradient(rgba(9, 157, 255, 0.932), rgba(18, 18, 19, 0.808)), url(../img/travellng.jpg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -1238,22 +1238,26 @@ section {
 }
 
 .card-football:hover {
+  background-image: linear-gradient(rgba(48, 48, 61, 0.322), rgba(1, 1, 17, 0.801)), url(../img/real-madrid.png);
   transform: scale(1.1);
 
 }
 
 .card-books:hover {
   transform: scale(1.1);
+  background-image: linear-gradient(rgba(48, 48, 61, 0.322), rgba(1, 1, 17, 0.801)), url(../img/books.jpg);
 
 }
 
 .card-movies:hover {
   transform: scale(1.1);
+  background-image: linear-gradient(rgba(48, 48, 61, 0.322), rgba(1, 1, 17, 0.801)), url(../img/game-of-thrones.jpg);
 
 }
 
 .card-traveling:hover {
   transform: scale(1.1);
+  background-image: linear-gradient(rgba(48, 48, 61, 0.322), rgba(1, 1, 17, 0.801)), url(../img/travellng.jpg);
 
 }
 
