@@ -658,7 +658,7 @@ section {
 
 .services .row p {
   color: white;
-  font-weight:400;
+  font-weight: 400;
 }
 
 .services .icon {
@@ -1167,10 +1167,6 @@ section {
   margin-left: 70px;
 }
 
-.educationfontWeight {
-  font-weight: bold;
-
-}
 
 
 
@@ -1193,7 +1189,7 @@ section {
 
 
 .card-football {
-  background-image: linear-gradient(rgba(9, 157, 255, 0.932), rgba(18, 18, 19, 0.808)), url(../img/real-madrid.png);
+  background-image: linear-gradient(rgba(9, 157, 255, 0.712), rgba(0, 0, 0, 0.856)), url(../img/real-madrid.png);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -1203,7 +1199,7 @@ section {
 
 .card-books {
 
-  background-image: linear-gradient(rgba(9, 157, 255, 0.932), rgba(18, 18, 19, 0.808)), url(../img/books.jpg);
+  background-image: linear-gradient(rgba(9, 157, 255, 0.712), rgba(0, 0, 0, 0.856)), url(../img/books.jpg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -1215,7 +1211,7 @@ section {
 
 .card-movies {
 
-  background-image: linear-gradient(rgba(9, 157, 255, 0.932), rgba(18, 18, 19, 0.808)), url(../img/game-of-thrones.jpg);
+  background-image: linear-gradient(rgba(9, 157, 255, 0.712), rgba(0, 0, 0, 0.856)), url(../img/game-of-thrones.jpg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -1227,7 +1223,7 @@ section {
 
 .card-traveling {
 
-  background-image: linear-gradient(rgba(9, 157, 255, 0.932), rgba(18, 18, 19, 0.808)), url(../img/travellng.jpg);
+  background-image: linear-gradient(rgba(9, 157, 255, 0.712), rgba(0, 0, 0, 0.856)), url(../img/travellng.jpg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -1262,12 +1258,98 @@ section {
 }
 
 .favorite {
-  background-color:white;
+  background-color: white;
 }
- 
-.section-title-services{
+
+.section-title-services {
   color: white;
 }
-.section-title-services h2{
+
+.section-title-services h2 {
   font-weight: bold;
+}
+
+.contact_section h4 {
+  display: inline;
+  font-size: 2rem;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+
+
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+
+
+}
+
+
+#about{
+  min-height:auto;
+  background-image:linear-gradient(rgba(252, 250, 250, 0.808),rgba(194, 189, 189, 0.103));
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+  background-size: cover;
+  position: relative;
+
+
+}
+
+.about_text{
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1.1rem;
+}
+
+.about_text p{
+  color: #10253a;
+}
+
+.about button{
+  align-items: center;
+  border-radius: 30px;
+  background-color: #049bff;
+  color: white;
+  border-color: #049bff;
+  padding: 10px;
+  font-weight: 300;
+  border: 0;
+}
+
+.button_parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+
+.educationfontWeight {
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+
+.email a{
+  color: black;
 }
